@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KeyStorageClient</string>
+    <string name="set_fragment_key_textview">Key: </string>
+    <string name="set_fragment_value_textview">Value:</string>
+    <string name="progress_dialog_loading_msg">Loading...</string>
+    <string name="alert_dialog_title_msg">Alert</string>
+    <string name="alert_dialog_msg">Wrong Input</string>
+    <string name="alert_dialog_msg_success">Success</string>
+    <string name="alert_dialog_msg_empty_list">Success, but no values found</string>
+    <string name="alert_dialog_msg_error">Server error, cause: \n</string>
+    <string name="alert_dialog_msg_error_fatal">Fatal Error</string>
+    <string name="alert_dialog_button_ok">Ok</string>
+
+    <string name="get_fragment_value_textview">Value:</string>
+</resources>

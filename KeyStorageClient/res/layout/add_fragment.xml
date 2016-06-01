@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/set_fragment_key_textview"
+            android:id="@+id/tvKey"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/etKey"
+            android:gravity="left|center"
+            android:layout_toStartOf="@+id/etKey"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etKey"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/tvValue"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/set_fragment_value_textview"
+            android:id="@+id/tvValue"
+            android:gravity="center"
+            android:layout_below="@+id/tvKey"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/etValue"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etValue"
+            android:layout_below="@+id/tvKey"
+            android:layout_toEndOf="@+id/tvValue"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Right"
+            android:id="@+id/btnAddRight"
+            android:layout_below="@+id/etValue"
+            android:layout_toEndOf="@+id/btnAddLeft"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Left"
+            android:id="@+id/btnAddLeft"
+            android:layout_alignTop="@+id/btnAddRight"
+            android:layout_toEndOf="@+id/tvValue"
+            android:layout_marginStart="35dp"
+    />
+</RelativeLayout>
