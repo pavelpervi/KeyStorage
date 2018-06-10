@@ -1,2 +1,2 @@
-# KeyStorage
+# KeyValueStorage
 KeyStorage Server/Client Implementation
